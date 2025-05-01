@@ -3,7 +3,7 @@ pipeline {
     environment {
 	    SERVICE_REPO_NAME = 'RTM_EurekaService.git'
 	    DOCKER_IMAGE = 'hyundooboo/rtm-eureka-service'
-	    SERVICE_NAME = 'eureka-service'
+	    SERVICE_NAME = 'Eureka-service'
 	    SPRING_DATASOURCE_URL = credentials('postgres-url')
 	    DB_CREDENTIALS = credentials('postgres-db-credentials')
 	    GITHUB_CREDENTIALS = credentials('github-token')
