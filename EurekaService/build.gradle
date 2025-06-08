@@ -37,8 +37,11 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
-    // Spring Boot Actuator (Health Check용)
+    // Spring Boot Actuator
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+    // Micrometer-Registry
+    implementation 'io.micrometer:micrometer-registry-prometheus'
 
     // Eureka Server 의존성
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
